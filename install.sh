@@ -19,7 +19,4 @@ php artisan cache:clear
 php artisan config:clear
 php artisan optimize:clear
 
-<<<<<<< HEAD
-echo "Theme installation complete!"
-=======
 echo "Theme installation complete!"
