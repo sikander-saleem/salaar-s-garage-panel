@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd /var/www/pterodactyl || { echo "Error: /var/www/pterodactyl not found"; exit 1; }
+
 # Check if running in panel root
 if [ ! -d "public" ] || [ ! -d "resources" ]; then
     echo "Error: Run this inside /var/www/pterodactyl"
